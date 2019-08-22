@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARInfo>
+<TargetSet version="14.0" toolVersion="7.0.0">
+<ModelTarget name="Niere2" targetId="e714383a16b64d9bb1ab1980f1ef5be3" version="11.0" toolVersion="3.0.0" bbox="0.028111 0.071939 -0.606314 0.109697 0.131141 -0.485370" previewImage="e714383a16b64d9bb1ab1980f1ef5be3_preview.jpg"/>
+
+</TargetSet>
+
+<Assembly name="Niere2s_assembly" assemblyId="a2b3a7c5b2ad46bbbd1890f9c80b892a">
+<Part name="Niere2" translation="0 0 0" rotation="AD: 0 0 1 0"/>
+<EntryPoint name="viewpoint_0000" translation="-0.342491 0.200599 -0.186984" rotation="AD: 0.9933882372240668 0.46885586340249913 -0.28401991475093313 203.995" image="Niere2_viewpoint_0000.png">
+
+</EntryPoint>
+
+</Assembly>
+
+</QCARInfo>

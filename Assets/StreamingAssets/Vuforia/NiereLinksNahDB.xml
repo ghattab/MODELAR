@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+<Tracking>
+<ModelTarget name="NiereLinksNah"/>
+
+</Tracking>
+
+<Assembly name="NiereLinksNahs_assembly" assemblyId="7cd36dfcece749f6b0164905d31eb0ef">
+<Part name="NiereLinksNah" translation="0 0 0" rotation="AD: 0 0 1 0"/>
+<EntryPoint name="viewpoint_0000" translation="-0.533839 -0.10841 0.318513" rotation="AD: -0.7977551557466132 -0.9384948596885512 1.1648993120923181 138.476">
+
+</EntryPoint>
+<EntryPoint name="viewpoint_0001" translation="-0.235742 0.160355 -0.290385" rotation="AD: 0.9973117284557762 0.4598230419496094 -0.17854384837809245 193.51">
+
+</EntryPoint>
+<EntryPoint name="viewpoint_0002" translation="0.534883 0.0254811 0.0289561" rotation="AD: 0.9995642254071408 -0.05437823647982423 0.6482423345323937 174.142">
+
+</EntryPoint>
+<EntryPoint name="viewpoint_0003" translation="0.118715 -0.290542 0.654116" rotation="AD: 0.6129569991064093 -0.9080179939550921 2.444154555658059 144.943">
+
+</EntryPoint>
+<EntryPoint name="viewpoint_0004" translation="0.540113 0.104097 0.0887887" rotation="AD: 0.988046372055127 -0.3085831126404044 0.6205231405568759 207.373">
+
+</EntryPoint>
+
+</Assembly>
+<ModelTargetDatabase name="NiereLinksNahDB" />
+</QCARConfig>

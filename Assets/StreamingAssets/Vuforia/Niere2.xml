@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+<Tracking>
+<ModelTarget name="Niere2"/>
+
+</Tracking>
+
+<Assembly name="Niere2s_assembly" assemblyId="a2b3a7c5b2ad46bbbd1890f9c80b892a">
+<Part name="Niere2" translation="0 0 0" rotation="AD: 0 0 1 0"/>
+<EntryPoint name="viewpoint_0000" translation="-0.342491 0.200599 -0.186984" rotation="AD: 0.9933882372240668 0.46885586340249913 -0.28401991475093313 203.995">
+
+</EntryPoint>
+
+</Assembly>
+
+</QCARConfig>

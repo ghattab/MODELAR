@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+<Tracking>
+<ModelTarget name="Niere"/>
+
+</Tracking>
+
+<Assembly name="Nieres_assembly" assemblyId="e42b5a26db624461bc934fd63da9affa">
+<Part name="Niere" translation="0 0 0" rotation="AD: 0 0 1 0"/>
+<EntryPoint name="viewpoint_0000" translation="0.0625305 -0.450049 0.507911" rotation="AD: -0.006116054610032334 -1.1767473375090487 1.897062598563683 179.805">
+
+</EntryPoint>
+<EntryPoint name="viewpoint_0001" translation="0.512047 -0.152854 0.360528" rotation="AD: 0.7815987539784531 -0.846029675969313 1.3639047265267314 210.388">
+
+</EntryPoint>
+<EntryPoint name="viewpoint_0002" translation="0.449517 0.344506 0.113881" rotation="AD: 0.9883253626399143 -0.3565893651645774 0.5748662657960629 234.214">
+
+</EntryPoint>
+<EntryPoint name="viewpoint_0003" translation="-0.0625305 0.544671 0.0146172" rotation="AD: -0.9999999999849911 0.0019998216018852415 -0.003223960355641993 116.378">
+
+</EntryPoint>
+<EntryPoint name="viewpoint_0004" translation="-0.512047 0.247476 0.162" rotation="AD: 0.9889084153254425 0.3515260054672865 -0.566703502220036 234.432">
+
+</EntryPoint>
+<EntryPoint name="viewpoint_0005" translation="-0.449517 -0.249884 0.408647" rotation="AD: -0.7872154896319733 -0.8395147089377936 1.3534017919609025 149.262">
+
+</EntryPoint>
+
+</Assembly>
+<ModelTargetDatabase name="Nieren" />
+</QCARConfig>
