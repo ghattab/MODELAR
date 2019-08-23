@@ -39,8 +39,6 @@ General usage:
 6. Change the preset to your likings
 7. Every change will be locally tracked in the "History.csv"
 
-More technical informations and detailed button descriptions can be found in [this Presentation](KP_NCT_Final_Presentation.pdf).
-
 
 | Image of 3D printed kidney | White outline | Start of tracking and visualization |
 | --- | --- | --- |
