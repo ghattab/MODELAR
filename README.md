@@ -8,7 +8,7 @@ Tracking is done by training a multi-view model of the target organ (i.e. kidney
 ## Dependencies
 
 Simple installation with Unity Hub: https://unity3d.com/de/get-unity/download
-+ Unitiy 2019.1.14f1 installation
++ Unity 2019.1.14f1 installation
 + Android Build Support + Android SDK
 + Vuforia Augmented Reality Support
 
