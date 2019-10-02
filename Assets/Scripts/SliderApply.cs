@@ -86,66 +86,68 @@ public class SliderApply : MonoBehaviour
 
     public void UpdateSliders()
     {
-        transparancySlider.value = DropdownDataProvider.currentSelected.GetComponent<MeshRenderer>().material.GetFloat("_Alpha");
-        transparancyFalloffSlider.value = DropdownDataProvider.currentSelected.GetComponent<MeshRenderer>().material.GetFloat("_AlphaFalloff");
-        glossinessSlider.value = DropdownDataProvider.currentSelected.GetComponent<MeshRenderer>().material.GetFloat("_Glossiness");
-        depthWeightSlider.value = DropdownDataProvider.currentSelected.GetComponent<MeshRenderer>().material.GetFloat("_Depth_Weight");
+        MeshRenderer mr = DropdownDataProvider.currentSelected.GetComponent<MeshRenderer>();
+        transparancySlider.value = mr.material.GetFloat("_Alpha") * 10f;
+        transparancyFalloffSlider.value = mr.material.GetFloat("_AlphaFalloff") * 5f;
+        glossinessSlider.value = mr.material.GetFloat("_Glossiness") * (1f/0.4f);
+        depthWeightSlider.value = mr.material.GetFloat("_Depth_Weight") * 5f;
     }
     void setDepthWeight(Slider slider)
     {
-        DropdownDataProvider.currentSelected.GetComponent<MeshRenderer>().material.SetFloat("_Depth_Weight", slider.value);
+        DropdownDataProvider.currentSelected.GetComponent<MeshRenderer>().material.SetFloat("_Depth_Weight", slider.value * 0.2f);
     }
 
     
     void setTranparancy(Slider slider)
     {
-        DropdownDataProvider.currentSelected.GetComponent<MeshRenderer>().material.SetFloat("_Alpha", slider.value);
+        DropdownDataProvider.currentSelected.GetComponent<MeshRenderer>().material.SetFloat("_Alpha", slider.value * 0.1f);
     }
 
     void setTranparancyFalloff(Slider slider)
     {
-        DropdownDataProvider.currentSelected.GetComponent<MeshRenderer>().material.SetFloat("_AlphaFalloff", slider.value);
+        DropdownDataProvider.currentSelected.GetComponent<MeshRenderer>().material.SetFloat("_AlphaFalloff", slider.value * 0.2f);
     }
 
     void setSpecular(Slider slider)
     {
-        DropdownDataProvider.currentSelected.GetComponent<MeshRenderer>().material.SetFloat("_Glossiness", slider.value);
+        DropdownDataProvider.currentSelected.GetComponent<MeshRenderer>().material.SetFloat("_Glossiness", slider.value * 0.4f);
     }
 
     public static void printToCSV(string obj, string met, string val)
     {
         var csv = new StringBuilder();
-        var newLine = string.Format("{0},{1},{2}", obj, met, val);
+        var newLine = string.Format("{0};{1};{2};{3}", obj, met, val, Time.time);
         csv.AppendLine(newLine);
-        File.AppendAllText("History" + UserInfo.nameF.text + ".csv", csv.ToString());
+        File.AppendAllText(Application.persistentDataPath + "/History" + UserInfo.nameF.text + ".csv", csv.ToString());
+        Debug.Log(Application.persistentDataPath + "/History");
     }
     public void UpSetDepthWeight(Slider slider)
     {
         setDepthWeight(slider);
-        RedoUndo.addToHistory(DropdownDataProvider.currentSelected, "_Depth_Weight", slider.value);
-        printToCSV(DropdownDataProvider.currentSelected.name.ToString(), "_Depth_Weight", slider.value.ToString());
+        RedoUndo.addToHistory(DropdownDataProvider.currentSelected, "_Depth_Weight", slider.value * 0.2f);
+        printToCSV(DropdownDataProvider.currentSelected.name.ToString(), "Depth", slider.value.ToString());
 
     }
     public void UpSetTrancparancy(Slider slider)
     {
         setTranparancy(slider);
-        RedoUndo.addToHistory(DropdownDataProvider.currentSelected, "_Alpha", slider.value);
-        printToCSV(DropdownDataProvider.currentSelected.name.ToString(), "_Alpha", slider.value.ToString());
+        RedoUndo.addToHistory(DropdownDataProvider.currentSelected, "_Alpha", slider.value * 0.1f);
+        printToCSV(DropdownDataProvider.currentSelected.name.ToString(), "Opacity", slider.value.ToString());
 
     }
 
     public void UpSetTranparancyFalloff(Slider slider)
     {
         setTranparancyFalloff(slider);
-        RedoUndo.addToHistory(DropdownDataProvider.currentSelected, "_AlphaFalloff", slider.value);
-        printToCSV(DropdownDataProvider.currentSelected.name.ToString(), "_AlphaFalloff", slider.value.ToString());
+        RedoUndo.addToHistory(DropdownDataProvider.currentSelected, "_AlphaFalloff", slider.value * 0.2f);
+        printToCSV(DropdownDataProvider.currentSelected.name.ToString(), "Falloff", slider.value.ToString());
     }
 
     public void UpSetSpecular(Slider slider)
     {
         setSpecular(slider);
-        RedoUndo.addToHistory(DropdownDataProvider.currentSelected, "_Glossiness", slider.value);
-        printToCSV(DropdownDataProvider.currentSelected.name.ToString(), "_Glossiness", slider.value.ToString());
+        RedoUndo.addToHistory(DropdownDataProvider.currentSelected, "_Glossiness", slider.value * 0.4f);
+        printToCSV(DropdownDataProvider.currentSelected.name.ToString(), "Specularity", slider.value.ToString());
     }
 
 }

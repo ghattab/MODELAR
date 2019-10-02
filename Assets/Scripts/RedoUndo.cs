@@ -1,5 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.IO;
+using System.Text;
 using UnityEngine;
 
 public class RedoUndo : MonoBehaviour
@@ -61,7 +63,16 @@ public class RedoUndo : MonoBehaviour
 
     public void redo()
     {
-        if(currentBehindState > 0) {
+        
+
+        if (currentBehindState > 0) {
+
+            var csv = new StringBuilder();
+            var newLine = string.Format("A: {0};{1}", "Redo", Time.time);
+            csv.AppendLine(newLine);
+            File.AppendAllText(Application.persistentDataPath + "/History" + UserInfo.nameF.text + ".csv", csv.ToString());
+            Debug.Log(Application.persistentDataPath + "/History");
+
             currentBehindState--;
             HistoryItem item = history[history.Count - currentBehindState -1];
             if(item.effect != "_Color") {
@@ -81,8 +92,17 @@ public class RedoUndo : MonoBehaviour
 
     public void undo()
     {
-        if (currentBehindState < history.Count - 1)
+        
+
+        if (currentBehindState < history.Count -1)
         {
+
+            var csv = new StringBuilder();
+            var newLine = string.Format("A: {0};{1}", "Undo", Time.time);
+            csv.AppendLine(newLine);
+            File.AppendAllText(Application.persistentDataPath + "/History" + UserInfo.nameF.text + ".csv", csv.ToString());
+            Debug.Log(Application.persistentDataPath + "/History");
+
             currentBehindState++;
             HistoryItem item = history[history.Count - currentBehindState - 1];
 

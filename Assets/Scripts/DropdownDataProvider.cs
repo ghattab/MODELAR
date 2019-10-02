@@ -16,12 +16,14 @@ public class DropdownDataProvider : MonoBehaviour
 
     private Dropdown dropdown;
     public static GameObject currentSelected;
+    public static MeshRenderer currentSelectedMr;
     // Start is called before the first frame update
     void Start()
     {
         dropdown = GetComponent<Dropdown>();
         UpdateDropdownList();
         currentSelected = items[0].obj;
+        currentSelectedMr = currentSelected.GetComponent<MeshRenderer>();
         dropdown.onValueChanged.AddListener(delegate {
             DropdownValueChanged(dropdown);
         });
@@ -42,6 +44,7 @@ public class DropdownDataProvider : MonoBehaviour
     {
         currentSelected = items[change.value].obj;
         FindObjectOfType<SliderApply>().UpdateSliders();
+        currentSelectedMr = currentSelected.GetComponent<MeshRenderer>();
 
     }
 }

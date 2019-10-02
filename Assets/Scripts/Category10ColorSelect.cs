@@ -21,6 +21,7 @@ public class Category10ColorSelect : MonoBehaviour
             newColor.normalColor = color;
             newColor.disabledColor = color;
             newColor.highlightedColor = color * 1.1f;
+            newColor.selectedColor = new Color(newColor.highlightedColor.r, newColor.highlightedColor.g, newColor.highlightedColor.b, 1);
             newColor.pressedColor = color * 0.9f ;
             newColor.fadeDuration = 0.1f;
             newColor.colorMultiplier = 1f;
@@ -40,7 +41,7 @@ public class Category10ColorSelect : MonoBehaviour
                // setCurrentColor(button.GetComponent<Button>());
             });
 
-            yPos += 160;
+            yPos += 140;
         }
     }
 
@@ -55,10 +56,10 @@ public class Category10ColorSelect : MonoBehaviour
         foreach (GameObject cButton in GameObject.FindGameObjectsWithTag("ColorButton"))
         {
             cButton.GetComponentInChildren<Text>().text = "";
-            cButton.GetComponent<RectTransform>().sizeDelta = new Vector2(160, 160);
+            cButton.GetComponent<RectTransform>().sizeDelta = new Vector2(140, 140);
         }
         button.GetComponentInChildren<Text>().text = "Selected";
-        button.GetComponent<RectTransform>().sizeDelta = new Vector2(170, 170);
+        button.GetComponent<RectTransform>().sizeDelta = new Vector2(150, 150);
     }
     public static void markSelectedButton(Color color)
     {
@@ -66,7 +67,7 @@ public class Category10ColorSelect : MonoBehaviour
         foreach (GameObject cButton in GameObject.FindGameObjectsWithTag("ColorButton"))
         {
             cButton.GetComponentInChildren<Text>().text = "";
-            cButton.GetComponent<RectTransform>().sizeDelta = new Vector2(160, 160);
+            cButton.GetComponent<RectTransform>().sizeDelta = new Vector2(140, 140);
             if (cButton.GetComponent<Button>().colors.normalColor == color)
             {
                 button = cButton;
@@ -74,7 +75,7 @@ public class Category10ColorSelect : MonoBehaviour
         }
         if(button != null) {
         button.GetComponentInChildren<Text>().text = "Selected";
-        button.GetComponent<RectTransform>().sizeDelta = new Vector2(170, 170);
+        button.GetComponent<RectTransform>().sizeDelta = new Vector2(150, 150);
         }
     }
 
@@ -83,12 +84,12 @@ public class Category10ColorSelect : MonoBehaviour
         if(!col2) { 
             DropdownDataProvider.currentSelected.GetComponent<MeshRenderer>().material.SetColor("_Color",button.colors.normalColor);
             RedoUndo.addToHistory(DropdownDataProvider.currentSelected, "_Color", button.colors.normalColor);
-            SliderApply.printToCSV(DropdownDataProvider.currentSelected.name.ToString(), "_Color", button.colors.normalColor.ToString());
+            SliderApply.printToCSV(DropdownDataProvider.currentSelected.name.ToString(), "Color", button.colors.normalColor.ToString());
         } else
         {
             DropdownDataProvider.currentSelected.GetComponent<MeshRenderer>().material.SetColor("_Color2", button.colors.normalColor);
             RedoUndo.addToHistory(DropdownDataProvider.currentSelected, "_Color2", button.colors.normalColor);
-            SliderApply.printToCSV(DropdownDataProvider.currentSelected.name.ToString(), "_Color2", button.colors.normalColor.ToString());
+            SliderApply.printToCSV(DropdownDataProvider.currentSelected.name.ToString(), "Color2", button.colors.normalColor.ToString());
         }
     }
 }
