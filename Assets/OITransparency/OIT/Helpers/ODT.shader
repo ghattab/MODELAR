@@ -26,7 +26,7 @@ Shader "Custom/ODT" {
 			#pragma fragment frag
 			
 			#include "Lighting.cginc"
-			
+			#define M_PI 3.1415926535897932384626433832795
 			fixed4 _Color;
 			float _Depth_Weight;
 			float _Glossiness;
@@ -85,7 +85,9 @@ Shader "Custom/ODT" {
 				{
 					//Blinn Phong specular lighting
 					fixed3 H = normalize(tangentLightDir + tangentViewDir);
-					specularReflection = _Glossiness * _LightColor0.rgb * pow(max(0.0, dot(H, tangentNormal)), max(_Glossiness * 32, 1));
+					float exp = max(_Glossiness * 32, 1);
+					float conservationFactor = (exp + 8.0f) / (8.0f * M_PI);
+					specularReflection = conservationFactor * _LightColor0.rgb * pow(max(0.0, dot(H, tangentNormal)), exp) * 0.3f;
 				}
 				
 				return fixed4(specularReflection + ambient + diffuse, clamp(_Alpha - abs(dot(tangentViewDir, tangentNormal)) * _AlphaFalloff, 0.0, 1.0));
