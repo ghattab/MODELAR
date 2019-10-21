@@ -1,5 +1,5 @@
 
-## Open Medical AR framework
+## A MODular and EvaLuative framework to improve surgical Augmented Reality visualization 
 
 Example augmentation for a patient kidney, from the OpenHELP phantom [1].
 Tracking is done by training a multi-view model of the target organ (i.e. kidney) using Vuforia. The relevant geometry is given as STL files: kidney, tumor, calyx.
