@@ -1,0 +1,72 @@
+//Preset1;316.215
+//Preset2;320.1805
+//Preset1;321.8801
+//Preset2;370.6693
+//Preset1;371.6024
+//Preset2;372.6689
+//Preset3;374.9351
+//Preset1;376.6682
+//Preset2;388.7996
+//Preset2;392.2988
+//Preset2;393.0653
+//Preset2;393.6318
+//Preset2;394.1983
+//Preset2;395.1648
+//Preset2;395.7646
+//Preset1;398.564
+//Preset3;400.0641
+//Preset5;412.4952
+//Preset6;420.6605
+//Preset4;425.3263
+//Preset3;429.0917
+//Preset2;431.6576
+//Preset2;434.5568
+//Preset2;435.39
+//Preset1;439.1223
+//Preset3;440.5555
+//Preset5;448.6862
+//Preset6;450.2525
+//Preset3;452.7185
+//Preset2;461.8823
+Calxy;Falloff;5;522.7968
+Calxy;Opacity;8;530.2281
+Calxy;Specularity;3;536.5598
+Calxy;Specularity;5;538.9259
+Calxy;Specularity;2;542.9916
+Calxy;Depth;3;551.9559
+Calxy;Depth;5;556.1879
+Kidney;Depth;5;561.4534
+Kidney;Depth;3;568.0851
+Calxy;Color;RGBA(0.839, 0.153, 0.157, 1.000);591.5788
+Calxy;Color;RGBA(0.580, 0.404, 0.741, 1.000);593.1784
+Calxy;Opacity;10;602.8428
+Calxy;Falloff;2;614.84
+Tumor;Opacity;10;630.9363
+Tumor;Opacity;10;633.0692
+Tumor;Specularity;5;637.3682
+Tumor;Specularity;1;639.9343
+Tumor;Depth;0;646.1328
+Tumor;Color;RGBA(0.090, 0.745, 0.812, 1.000);649.1981
+Tumor;Color;RGBA(0.737, 0.741, 0.133, 1.000);650.331
+Tumor;Color;RGBA(0.498, 0.498, 0.498, 1.000);650.8979
+Tumor;Color;RGBA(0.890, 0.467, 0.761, 1.000);652.5641
+Tumor;Color;RGBA(0.549, 0.337, 0.294, 1.000);653.4305
+Tumor;Color;RGBA(0.580, 0.404, 0.741, 1.000);654.4636
+Tumor;Color;RGBA(0.839, 0.153, 0.157, 1.000);654.9968
+Tumor;Color;RGBA(0.839, 0.153, 0.157, 1.000);655.8633
+Tumor;Color;RGBA(0.173, 0.627, 0.173, 1.000);656.4297
+Tumor;Color;RGBA(1.000, 0.498, 0.055, 1.000);659.0624
+Tumor;Color;RGBA(0.122, 0.467, 0.706, 1.000);660.0288
+Tumor;Color;RGBA(0.737, 0.741, 0.133, 1.000);661.9283
+Kidney;Color;RGBA(0.549, 0.337, 0.294, 1.000);673.192
+Calxy;Color;RGBA(0.839, 0.153, 0.157, 1.000);683.3225
+Calxy;Color;RGBA(0.890, 0.467, 0.761, 1.000);685.9218
+Calxy;Color;RGBA(0.498, 0.498, 0.498, 1.000);687.2548
+Calxy;Color;RGBA(0.737, 0.741, 0.133, 1.000);688.5878
+Calxy;Color;RGBA(0.090, 0.745, 0.812, 1.000);689.4209
+Calxy;Color;RGBA(0.839, 0.153, 0.157, 1.000);690.8871
+Calxy;Color;RGBA(0.173, 0.627, 0.173, 1.000);692.6867
+Calxy;Color;RGBA(1.000, 0.498, 0.055, 1.000);693.1865
+Calxy;Color;RGBA(0.122, 0.467, 0.706, 1.000);694.5529
+Calxy;Color;RGBA(1.000, 0.498, 0.055, 1.000);695.3193
+\Submit;704.0836

@@ -1,0 +1,67 @@
+//Preset3;56.81673
+//Preset4;58.3166
+//Preset2;59.2832
+//Preset1;60.94975
+//Preset1;61.24973
+//Preset5;62.74961
+//Preset4;67.38259
+//Preset3;71.18234
+//Preset5;72.18227
+//Preset2;75.38202
+//Preset6;79.91457
+//Preset5;81.28127
+//Preset2;91.27982
+//Preset3;100.3791
+//Preset2;103.3789
+Tumor;Color;RGBA(1.000, 0.498, 0.055, 1.000);133.9075
+Tumor;Color;RGBA(0.173, 0.627, 0.173, 1.000);135.5739
+Tumor;Color;RGBA(0.580, 0.404, 0.741, 1.000);136.3404
+Tumor;Color;RGBA(0.549, 0.337, 0.294, 1.000);136.9737
+Tumor;Color;RGBA(0.890, 0.467, 0.761, 1.000);137.5069
+Tumor;Color;RGBA(0.737, 0.741, 0.133, 1.000);138.4068
+Tumor;Color;RGBA(0.090, 0.745, 0.812, 1.000);138.94
+Tumor;Color;RGBA(0.498, 0.498, 0.498, 1.000);139.7066
+Tumor;Depth;3;144.0054
+Tumor;Depth;4;144.5053
+Tumor;Depth;5;144.9719
+Tumor;Depth;2;145.7051
+Tumor;Depth;0;147.3048
+Tumor;Specularity;2;151.3034
+Tumor;Specularity;3;151.7366
+Tumor;Color;RGBA(0.839, 0.153, 0.157, 1.000);153.8695
+Tumor;Specularity;2;157.2681
+Tumor;Specularity;3;157.8679
+Tumor;Specularity;4;158.4677
+Tumor;Specularity;1;159.7007
+Tumor;Specularity;4;160.7671
+Tumor;Specularity;1;161.6335
+Tumor;Specularity;5;162.8332
+Tumor;Specularity;3;163.7663
+Tumor;Specularity;1;164.4327
+Tumor;Specularity;2;164.9992
+Tumor;Specularity;3;165.4991
+Tumor;Specularity;4;165.9657
+Tumor;Specularity;4;166.3655
+Kidney;Color;RGBA(0.580, 0.404, 0.741, 1.000);198.657
+Kidney;Color;RGBA(0.890, 0.467, 0.761, 1.000);199.3902
+Kidney;Color;RGBA(0.498, 0.498, 0.498, 1.000);200.29
+Kidney;Color;RGBA(1.000, 0.498, 0.055, 1.000);201.4897
+Kidney;Color;RGBA(0.122, 0.467, 0.706, 1.000);202.1562
+Kidney;Color;RGBA(0.737, 0.741, 0.133, 1.000);203.6226
+Kidney;Color;RGBA(0.580, 0.404, 0.741, 1.000);207.3217
+Tumor;Color;RGBA(0.737, 0.741, 0.133, 1.000);213.3203
+Kidney;Color;RGBA(0.839, 0.153, 0.157, 1.000);217.2861
+Kidney;Color;RGBA(0.122, 0.467, 0.706, 1.000);219.0517
+Kidney;Color;RGBA(1.000, 0.498, 0.055, 1.000);220.1512
+Kidney;Color;RGBA(0.173, 0.627, 0.173, 1.000);220.4516
+Kidney;Color;RGBA(0.122, 0.467, 0.706, 1.000);223.5845
+Kidney;Color;RGBA(0.090, 0.745, 0.812, 1.000);224.7176
+Kidney;Color;RGBA(0.549, 0.337, 0.294, 1.000);225.6842
+Kidney;Color;RGBA(0.890, 0.467, 0.761, 1.000);226.1508
+Kidney;Color;RGBA(0.580, 0.404, 0.741, 1.000);229.7169
+Kidney;Color;RGBA(0.839, 0.153, 0.157, 1.000);230.9497
+Kidney;Opacity;2;240.481
+Kidney;Opacity;4;241.7471
+Kidney;Opacity;10;244.6796
+Tumor;Opacity;10;249.9783
+\Submit;255.3773

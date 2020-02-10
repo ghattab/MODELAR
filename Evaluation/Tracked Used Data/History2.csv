@@ -1,0 +1,21 @@
+//Preset1;386.9795
+//Preset3;387.7121
+//Preset5;389.0115
+//Preset2;391.0439
+//Preset4;392.4767
+//Preset4;395.3753
+//Preset6;396.0084
+//Preset3;457.8512
+//Preset5;465.8143
+//Preset6;467.7801
+//Preset4;469.4134
+//Preset4;474.8785
+//Preset2;476.6776
+//Preset3;485.2746
+Calxy;Depth;1;529.2245
+Calxy;Falloff;4;537.9871
+Calxy;Falloff;3;544.9176
+Tumor;Specularity;2;555.7472
+Kidney;Color;RGBA(0.580, 0.404, 0.741, 1.000);566.8432
+Kidney;Color;RGBA(0.737, 0.741, 0.133, 1.000);569.0086
+\Submit;576.4058

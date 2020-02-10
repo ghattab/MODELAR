@@ -1,0 +1,67 @@
+//Preset3;478.592
+//Preset1;483.3905
+//Preset3;485.0901
+//Preset5;486.1226
+//Preset2;487.5221
+//Preset4;490.9209
+//Preset6;492.5203
+//Preset1;496.1186
+//Preset3;497.618
+//Preset2;499.8838
+//Preset4;501.1167
+//Preset5;501.8831
+//Preset6;502.916
+//Preset2;504.6153
+//Preset4;505.4484
+//Preset3;506.7145
+//Preset1;508.0807
+//Preset3;509.0803
+//Preset2;509.78
+//Preset4;510.9129
+//Preset3;511.8459
+//Preset2;513.312
+Kidney;Falloff;3;530.4385
+Kidney;Color;RGBA(0.173, 0.627, 0.173, 1.000);534.8034
+Kidney;Color;RGBA(0.122, 0.467, 0.706, 1.000);535.5698
+Kidney;Color;RGBA(1.000, 0.498, 0.055, 1.000);536.2697
+Kidney;Color;RGBA(0.580, 0.404, 0.741, 1.000);537.0694
+Kidney;Color;RGBA(0.839, 0.153, 0.157, 1.000);537.5022
+Kidney;Color;RGBA(0.549, 0.337, 0.294, 1.000);539.468
+Kidney;Color;RGBA(0.890, 0.467, 0.761, 1.000);540.7007
+Kidney;Color;RGBA(0.498, 0.498, 0.498, 1.000);542.2001
+Kidney;Color;RGBA(0.890, 0.467, 0.761, 1.000);543.3668
+Kidney;Color;RGBA(0.737, 0.741, 0.133, 1.000);544.7665
+Kidney;Color;RGBA(1.000, 0.498, 0.055, 1.000);545.8658
+Kidney;Color;RGBA(0.890, 0.467, 0.761, 1.000);547.1321
+Kidney;Color;RGBA(0.549, 0.337, 0.294, 1.000);549.598
+Kidney;Color;RGBA(0.580, 0.404, 0.741, 1.000);551.8972
+Kidney;Color;RGBA(0.890, 0.467, 0.761, 1.000);552.7636
+Kidney;Depth;3;569.4915
+Kidney;Depth;2;571.1238
+Kidney;Specularity;2;579.821
+Kidney;Opacity;7;589.9176
+Calxy;Opacity;8;599.3479
+Calxy;Opacity;9;603.4132
+Kidney;Falloff;5;639.7994
+Kidney;Falloff;4;641.4656
+Kidney;Color;RGBA(1.000, 0.498, 0.055, 1.000);649.0298
+Kidney;Color;RGBA(1.000, 0.498, 0.055, 1.000);650.2628
+Kidney;Color;RGBA(0.122, 0.467, 0.706, 1.000);651.1958
+Kidney;Color;RGBA(1.000, 0.498, 0.055, 1.000);651.8956
+Kidney;Color;RGBA(0.173, 0.627, 0.173, 1.000);653.9949
+Kidney;Color;RGBA(0.090, 0.745, 0.812, 1.000);655.0612
+Kidney;Specularity;2;668.5902
+Kidney;Color;RGBA(0.890, 0.467, 0.761, 1.000);676.5543
+Kidney;Color;RGBA(0.580, 0.404, 0.741, 1.000);677.7206
+Kidney;Color;RGBA(0.122, 0.467, 0.706, 1.000);679.2535
+Kidney;Color;RGBA(0.737, 0.741, 0.133, 1.000);680.653
+Kidney;Color;RGBA(0.122, 0.467, 0.706, 1.000);682.1854
+Kidney;Color;RGBA(0.839, 0.153, 0.157, 1.000);696.6129
+Kidney;Color;RGBA(0.122, 0.467, 0.706, 1.000);699.8785
+Kidney;Color;RGBA(0.549, 0.337, 0.294, 1.000);701.8448
+Kidney;Color;RGBA(1.000, 0.498, 0.055, 1.000);703.2436
+Kidney;Color;RGBA(0.122, 0.467, 0.706, 1.000);704.5101
+Kidney;Color;RGBA(0.737, 0.741, 0.133, 1.000);711.6741
+Kidney;Color;RGBA(0.122, 0.467, 0.706, 1.000);713.0403
+Kidney;Falloff;4;733.7986
+\Submit;737.0639

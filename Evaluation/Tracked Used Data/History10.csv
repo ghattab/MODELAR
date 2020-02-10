@@ -1,0 +1,26 @@
+//Preset1;48.24293
+//Preset4;59.17804
+//Preset3;60.24439
+//Preset1;60.9442
+//Preset2;65.30968
+//Preset6;70.30827
+//Preset5;73.47314
+//Preset3;74.97247
+//Preset1;79.138
+//Preset2;83.80261
+//Preset4;85.40192
+//Preset6;86.70138
+Tumor;Color;RGBA(0.839, 0.153, 0.157, 1.000);121.3894
+Kidney;Color;RGBA(0.090, 0.745, 0.812, 1.000);136.4835
+Kidney;Color;RGBA(0.839, 0.153, 0.157, 1.000);138.4161
+Kidney;Color;RGBA(0.173, 0.627, 0.173, 1.000);141.5146
+Kidney;Color;RGBA(1.000, 0.498, 0.055, 1.000);143.3806
+Kidney;Color;RGBA(0.737, 0.741, 0.133, 1.000);146.4121
+Calxy;Color;RGBA(0.122, 0.467, 0.706, 1.000);152.2095
+Calxy;Color;RGBA(0.173, 0.627, 0.173, 1.000);153.8425
+Calxy;Color;RGBA(0.122, 0.467, 0.706, 1.000);155.142
+Kidney;Falloff;7;171.3349
+Kidney;Falloff;7;174.6675
+Kidney;Falloff;6;177.6989
+Kidney;Falloff;6;179.5652
+\Submit;189.8938
