@@ -69,3 +69,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE. 
 ```
+
+## Paper
+If you adapt, remix, transform, or build upon the material, please cite the published paper:
+Hattab, G., Meyer, F., Remke, R. D., and Speidel, S. MODELAR: A MODularand EvaLuative framework to improve surgical Augmented Reality visualization. The Twenty second Eurographics/IEEE VGTC Symposium on Visualization (Accepted EuroVis '20).
