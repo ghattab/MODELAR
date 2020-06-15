@@ -72,4 +72,16 @@ SOFTWARE.
 
 ## Paper
 If you adapt, remix, transform, or build upon the material, please cite the published paper:
-Hattab, G., Meyer, F., Remke, R. D., and Speidel, S. MODELAR: A MODularand EvaLuative framework to improve surgical Augmented Reality visualization. The Twenty second Eurographics/IEEE VGTC Symposium on Visualization (Accepted EuroVis '20).
+BibTeX
+```
+@inproceedings {hattab20201066,
+booktitle = {EuroVis 2020 - Short Papers},
+editor = {Kerren, Andreas and Garth, Christoph and Marai, G. Elisabeta},
+title = {{MODELAR: A MODular and EvaLuative framework to improve surgical Augmented Reality visualization}},
+author = {Hattab, Georges and Meyer, Felix and Albrecht, Remke Dirk and Speidel, Stefanie},
+year = {2020},
+publisher = {The Eurographics Association},
+ISBN = {978-3-03868-106-9},
+DOI = {10.2312/evs.20201066}
+}
+```
